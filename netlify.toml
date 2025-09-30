@@ -1,9 +1,0 @@
-[build]
-command = "npm run dev"
-publish = "/build"
-base = "/"
-
-[[redirect]]
-from = "/*"
-to ="index.html"
-status = 200
